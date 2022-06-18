@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		220B5ACE285DB60B00E245E6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B5ACD285DB60B00E245E6 /* MainViewController.swift */; };
 		220B5AD0285DB98500E245E6 /* dev_icerock_moko_mvvm-flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B5ACF285DB98500E245E6 /* dev_icerock_moko_mvvm-flow.swift */; };
+		220B5AD2285DBEF100E245E6 /* moko-permissions-sample_shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220B5AD1285DBEF100E245E6 /* moko-permissions-sample_shared.swift */; };
 		22EC640B28278F6000329A02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC640A28278F6000329A02 /* AppDelegate.swift */; };
 		22EC640D28278F6000329A02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EC640C28278F6000329A02 /* SceneDelegate.swift */; };
 		22EC641228278F6000329A02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EC641028278F6000329A02 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		031EA53A9364114C9329342D /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		220B5ACD285DB60B00E245E6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		220B5ACF285DB98500E245E6 /* dev_icerock_moko_mvvm-flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "dev_icerock_moko_mvvm-flow.swift"; path = "../shared/build/cocoapods/framework/sharedSwift/dev_icerock_moko_mvvm-flow.swift"; sourceTree = "<group>"; };
+		220B5AD1285DBEF100E245E6 /* moko-permissions-sample_shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "moko-permissions-sample_shared.swift"; path = "../shared/build/cocoapods/framework/sharedSwift/moko-permissions-sample_shared.swift"; sourceTree = "<group>"; };
 		22EC640828278F6000329A02 /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EC640A28278F6000329A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22EC640C28278F6000329A02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		22EC641E282792FB00329A02 /* kswift */ = {
 			isa = PBXGroup;
 			children = (
+				220B5AD1285DBEF100E245E6 /* moko-permissions-sample_shared.swift */,
 				220B5ACF285DB98500E245E6 /* dev_icerock_moko_mvvm-flow.swift */,
 			);
 			name = kswift;
@@ -219,6 +222,7 @@
 			files = (
 				22EC640B28278F6000329A02 /* AppDelegate.swift in Sources */,
 				22EC640D28278F6000329A02 /* SceneDelegate.swift in Sources */,
+				220B5AD2285DBEF100E245E6 /* moko-permissions-sample_shared.swift in Sources */,
 				220B5AD0285DB98500E245E6 /* dev_icerock_moko_mvvm-flow.swift in Sources */,
 				220B5ACE285DB60B00E245E6 /* MainViewController.swift in Sources */,
 			);

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d1R-gd-shj">
-                                <rect key="frame" x="0.0" y="44" width="414" height="787"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="740"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -31,6 +31,14 @@
                                     <action selector="onButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2C-cf-AcO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71R-O0-z86">
+                                <rect key="frame" x="150" y="792" width="114.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open settings"/>
+                                <connections>
+                                    <action selector="toSettingsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IpO-cf-u83"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -39,17 +47,21 @@
                             <constraint firstItem="d1R-gd-shj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8sh-hf-CqV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d1R-gd-shj" secondAttribute="trailing" id="B9J-R4-LZN"/>
                             <constraint firstItem="d1R-gd-shj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="HEp-n6-PXq"/>
-                            <constraint firstItem="6q8-Sw-yM1" firstAttribute="top" secondItem="d1R-gd-shj" secondAttribute="bottom" id="RDn-g3-HiS"/>
+                            <constraint firstItem="71R-O0-z86" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JIz-Ri-gLg"/>
                             <constraint firstItem="6q8-Sw-yM1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WDl-cm-CJV"/>
+                            <constraint firstItem="71R-O0-z86" firstAttribute="top" secondItem="d1R-gd-shj" secondAttribute="bottom" constant="8" id="cUx-8j-SYd"/>
+                            <constraint firstItem="6q8-Sw-yM1" firstAttribute="top" secondItem="71R-O0-z86" secondAttribute="bottom" constant="8" id="ut6-29-CwQ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="actionBtn" destination="6q8-Sw-yM1" id="WPK-wI-mSC"/>
+                        <outlet property="goToSettingsBtn" destination="71R-O0-z86" id="SAz-mE-38b"/>
                         <outlet property="outputText" destination="d1R-gd-shj" id="0qe-hg-IQN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="98"/>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>

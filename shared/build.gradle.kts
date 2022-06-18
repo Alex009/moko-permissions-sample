@@ -25,6 +25,7 @@ kotlin {
 
             export("dev.icerock.moko:mvvm-core:0.13.0")
             export("dev.icerock.moko:mvvm-flow:0.13.0")
+            export("dev.icerock.moko:permissions:0.11.0")
         }
     }
 
@@ -33,6 +34,7 @@ kotlin {
             dependencies {
                 api("dev.icerock.moko:mvvm-core:0.13.0")
                 api("dev.icerock.moko:mvvm-flow:0.13.0")
+                api("dev.icerock.moko:permissions:0.11.0")
             }
         }
         val commonTest by getting {
